@@ -3,6 +3,7 @@ import BertFineTuningCaseStudy from "@/components/projects/bert-fine-tuning/Bert
 import ServiceMateCaseStudy from "@/components/projects/servicemate/ServiceMateCaseStudy";
 import LeadClassificationCaseStudy from "@/components/projects/lead-classification-engine/LeadClassificationCaseStudy";
 import KVCacheBenchmarkCaseStudy from "@/components/projects/kv-cache/KVCacheBenchmarkCaseStudy";
+import StudentHubMarketplaceCaseStudy from "@/components/projects/student-hub/StudentHubMarketplaceCaseStudy";
 
 type ProjectPageProps = {
   params: Promise<{
@@ -31,6 +32,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   if (slug === "transformer-kv-cache-benchmark") {
     return <KVCacheBenchmarkCaseStudy />;
+  }
+
+  if (slug === "student-hub-marketplace") {
+    return <StudentHubMarketplaceCaseStudy />;
   }
 
   return (

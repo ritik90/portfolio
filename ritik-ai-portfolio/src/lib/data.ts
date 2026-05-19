@@ -259,6 +259,38 @@ export const projects = [
         "Pareto interpretation",
     ],
     },
+    {
+      title: "Student Hub Marketplace",
+      slug: "student-hub-marketplace",
+      subtitle: "Full-stack student marketplace app",
+      category: "Full-Stack Product",
+      description:
+        "A deployed student-to-student marketplace platform for buying, selling, renting, and sharing student-focused items such as laptops, rooms, notes, and campus essentials with verified college email access.",
+      impact:
+        "Built and deployed a production-style marketplace with student-first onboarding, authentication, listing discovery, and a clean responsive UI.",
+      metrics: ["Live Vercel app", "Marketplace UX", "Auth flow"],
+      stack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Authentication",
+        "Vercel",
+        "Responsive UI",
+      ],
+      challenges: [
+        "Designing a student-first marketplace experience",
+        "Building a clean authentication and onboarding flow",
+        "Creating a deployed full-stack product with listing discovery",
+      ],
+      architecture: [
+        "Landing page",
+        "Login / signup",
+        "User verification",
+        "Marketplace listings",
+        "Buyer / seller flow",
+        "Vercel deployment",
+      ],
+    },
 ];
 
 export const experiences = [
