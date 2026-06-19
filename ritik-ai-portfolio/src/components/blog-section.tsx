@@ -9,8 +9,8 @@ export function BlogSection() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Writing"
-          title="Technical writing that reinforces authority."
-          description="Use this section to publish short, architecture-focused essays. Recruiters may skim projects, but hiring managers remember clear thinking."
+          title="Practical notes from building AI systems."
+          description="I use this space to share practical notes from my AI, ML, and systems projects — covering architecture decisions, evaluation methods, deployment lessons, and the trade-offs behind building production-ready solutions."
         />
 
         <div className="grid gap-4 md:grid-cols-3">
