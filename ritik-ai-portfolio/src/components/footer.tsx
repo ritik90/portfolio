@@ -13,9 +13,9 @@ export function Footer() {
           <Link href={profile.linkedin} target="_blank" className="hover:text-white">
             LinkedIn
           </Link>
-          <Link href={profile.resume} target="_blank" className="hover:text-white">
+          {/* <Link href={profile.resume} target="_blank" className="hover:text-white">
             Resume
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

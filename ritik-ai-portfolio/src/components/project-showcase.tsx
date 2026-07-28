@@ -211,13 +211,13 @@ export function ProjectShowcase() {
                 />
                 </Link>
 
-                <Link
+                {/* <Link
                     href={profile.resume}
                     target="_blank"
                     className="inline-flex items-center justify-center rounded-full border border-white/12 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-white/84 transition hover:border-violet/40 hover:bg-white/[0.06]"
                 >
                     Download resume
-                </Link>
+                </Link> */}
                 </div>
               </motion.div>
             </AnimatePresence>

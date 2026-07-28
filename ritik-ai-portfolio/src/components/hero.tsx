@@ -214,14 +214,14 @@ export function Hero() {
                 />
               </Link>
 
-              <Link
+              {/* <Link
                 href={profile.resume}
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-semibold text-white transition hover:border-cyan/35 hover:bg-white/[0.07]"
               >
                 <Download size={16} />
                 Resume
-              </Link>
+              </Link> */}
 
               <Link
                 href={`mailto:${profile.email}`}

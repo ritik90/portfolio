@@ -37,7 +37,7 @@ export function Navbar() {
           ))}
         </div>
 
-        <div className="hidden items-center gap-2 md:flex">
+        {/* <div className="hidden items-center gap-2 md:flex">
           <Link
             href={profile.resume}
             target="_blank"
@@ -52,7 +52,7 @@ export function Navbar() {
           >
             Contact
           </Link>
-        </div>
+        </div> */}
 
         <button
           className="rounded-xl border border-white/10 p-2 text-white md:hidden"
@@ -81,14 +81,14 @@ export function Navbar() {
             </Link>
           ))}
 
-          <Link
+          {/* <Link
             href={profile.resume}
             target="_blank"
             onClick={() => setOpen(false)}
             className="rounded-xl px-4 py-3 text-sm text-white/70 hover:bg-white/[0.05] hover:text-white"
           >
             Resume
-          </Link>
+          </Link> */}
 
           <Link
             href="#contact"
