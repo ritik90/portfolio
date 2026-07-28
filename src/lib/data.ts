@@ -2,8 +2,8 @@ export const profile = {
   name: "Ritik Saxena",
   role: "AI Engineer · Data Scientist",
   location: "Dublin, Ireland",
-  email: "ritiksaxena2009@gmail.com",
-  linkedin: "https://linkedin.com/in/ritik-saxena-6aa925176",
+  email: "ritiksaxena.ie@gmail.com",
+  linkedin: "https://www.linkedin.com/in/saxena-ritik/",
   github: "https://github.com/ritik90",
   resume: "/Ritik_Saxena_Resume.pdf",
 };
