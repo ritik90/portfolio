@@ -13,7 +13,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Ritik Saxena — AI Engineer & Data Scientist",
+  title: "Ritik Saxena - AI Engineer & Data Scientist",
   description:
     "Premium AI engineering portfolio for Ritik Saxena, focused on GenAI, LLMs, RAG systems, MLOps, NLP, and production AI systems.",
   keywords: [

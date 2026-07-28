@@ -2,10 +2,10 @@ export const profile = {
   name: "Ritik Saxena",
   role: "AI Engineer · Data Scientist",
   location: "Dublin, Ireland",
-  email: "ritiksaxena2009@gmail.com",
-  linkedin: "https://linkedin.com/in/ritik-saxena-6aa925176",
+  email: "ritiksaxena.ie@gmail.com",
+  linkedin: "https://www.linkedin.com/in/saxena-ritik/",
   github: "https://github.com/ritik90",
-  resume: "/Ritik_Saxena_Resume.pdf",
+  // resume: "/Ritik_Saxena_Resume.pdf",
 };
 
 export const logos = {
@@ -55,7 +55,7 @@ export const education = [
     degree: "MSc Data Science",
     school: "Trinity College Dublin",
     location: "Dublin, Ireland",
-    period: "Sept 2025 — Aug 2026",
+    period: "Sept 2025 - Aug 2026",
     logo: logos.trinity,
     focus:
       "Advanced AI, machine learning, analytics, and data-driven innovation.",
@@ -64,7 +64,7 @@ export const education = [
     degree: "Bachelor of Engineering in Computer Science",
     school: "Thapar Institute of Engineering & Technology",
     location: "Punjab, India",
-    period: "Jul 2018 — Aug 2022",
+    period: "Jul 2018 - Aug 2022",
     logo: logos.thapar,
     focus:
       "Computer science foundations, software engineering, data structures, algorithms, and applied computing.",
